@@ -3,7 +3,7 @@ import React from 'react';
 const ClubSelection = ({ selectedPlayers, totalBudget }) => {
   return (
     <div className="club-selection">
-      <h2>Selected Players for Club</h2>
+      <h2>Selected Players For Team</h2>
       <p>Total Budget: ${totalBudget}</p>
       <ul>
         {selectedPlayers.map((player) => (
@@ -12,6 +12,9 @@ const ClubSelection = ({ selectedPlayers, totalBudget }) => {
           </li>
         ))}
       </ul>
+      <footer>
+      Copyright © 2023 Saifur Rahman®. All rights reserved.
+      </footer>
     </div>
   );
 };

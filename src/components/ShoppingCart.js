@@ -111,7 +111,7 @@ const ShoppingCart = () => {
   return (
     <div className="shopping-cart">
       <div className="player-list">
-        <h2>Hashira List</h2>
+        <h2>Select Hashira For Your Team</h2>
         {players.map((player) => (
           <PlayerCard key={player.id} player={player} onSelect={handlePlayerSelect} />
         ))}
