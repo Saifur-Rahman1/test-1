@@ -3,7 +3,7 @@ import React from 'react';
 const ClubSelection = ({ selectedPlayers, totalBudget }) => {
   return (
     <div className="club-selection">
-      <h2>Selected Players For Team</h2>
+      <h2>Selected Hashira For Team</h2>
       <p>Total Budget: ${totalBudget}</p>
       <ul>
         {selectedPlayers.map((player) => (
