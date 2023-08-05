@@ -12,7 +12,7 @@ const PlayerCard = ({ player, onSelect }) => {
       />
       <h3>{name}</h3>
       <p>Salary: ${salary}</p>
-      <button onClick={() => onSelect(player)}>Select for Club</button>
+      <button onClick={() => onSelect(player)}>Select for Team</button>
     </div>
   );
 };

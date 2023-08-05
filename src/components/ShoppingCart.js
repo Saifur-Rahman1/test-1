@@ -88,16 +88,8 @@ const players = [
     },
 
   ];
-
-
-
-
-
-
-
-
-
-
+ 
+  
 
 const ShoppingCart = () => {
   const [selectedPlayers, setSelectedPlayers] = useState([]);
@@ -119,7 +111,7 @@ const ShoppingCart = () => {
   return (
     <div className="shopping-cart">
       <div className="player-list">
-        <h2>Player List</h2>
+        <h2>Hashira List</h2>
         {players.map((player) => (
           <PlayerCard key={player.id} player={player} onSelect={handlePlayerSelect} />
         ))}
